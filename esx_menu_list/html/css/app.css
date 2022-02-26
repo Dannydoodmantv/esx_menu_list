@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+	font-weight: 600;
+
+}
+
+.menu {
+	background-color: #252525e5;
+	text-shadow: 1px 2px 3px rgb(46, 46, 46);
+	font-family: 'Yantramanav', sans-serif;
+	border: 2px solid #4b4b4b;
+	border-radius: 10px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	font-weight: 600;
+	left: 50%;
+	overflow-y: auto;
+	max-height: 90%;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+}
+
+.menu button {
+	text-align: center;
+	Width: 6.5vh;
+	height: 3vh;
+	border-radius: .3vh;
+	text-decoration: none;
+	background-color: #383838;
+	border: 2px solid #4b4b4b;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 1.0vh;
+}
+
+
+.menu button:hover {
+	background-color: #2b2b2b;
+}
+
+.menu>table {
+	border: 1px transparent;
+	border-spacing: 1;
+	min-width: 700px;
+	max-width: 700px;
+	color: rgb(255, 255, 255);
+}
+
+.menu>table>thead {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu td {
+	text-align: center;
+	padding: 8px;
+	font-size: 1.1vh;
+}
+
+.menu tbody tr:nth-child(even) {
+	background-color: #303030e1;
+}
+
+.menu tbody tr:nth-child(odd) {
+	background-color: #303030e1;
+}
